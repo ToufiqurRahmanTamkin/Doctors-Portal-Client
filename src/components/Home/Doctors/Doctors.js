@@ -4,7 +4,7 @@ import Doctor from '../Doctor/Doctor';
 const Doctors = () => {
     const [doctors, setDoctors] = useState([])
     useEffect( () => {
-        fetch('http://localhost:5000/doctors')
+        fetch('http://localhost:7000/doctors')
         .then(res => res.json())
         .then(data => setDoctors(data))
     }, [])

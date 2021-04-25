@@ -9,37 +9,31 @@ const Footer = () => {
         {name: "Emergency Dental Care" , link: "/emergency"},
         {name: "Check Up" , link: "/checkup"},
         {name: "Treatment of Personal Diseases" , link: "/personal-treatment"},
-        {name: "Tooth Extraction" , link: "/tooth-extract"},
-        {name: "Check Up" , link: "/checkup"},
+        {name: "Tooth Extraction" , link: "/tooth-extract"}
     ]
     const ourAddress = [
-        {name: "New York - 101010 Hudson" , link: "//google.com/map"},
-        {name: "Yards" , link: "//google.com/map"},
+        {name: "Matuail Dhaka - 1361" , link: "//google.com/map"},
+        {name: "Demra" , link: "//google.com/map"},
        
     ]
     const oralHealth = [
         {name: "Emergency Dental Care" , link: "/emergency"},
         {name: "Check Up" , link: "/checkup"},
         {name: "Treatment of Personal Diseases" , link: "/personal-treatment"},
-        {name: "Tooth Extraction" , link: "/tooth-extract"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Check Up" , link: "/checkup"}
+        {name: "Tooth Extraction" , link: "/tooth-extract"}
+
     ]
     const services = [
         {name: "Emergency Dental Care" , link: "/emergency"},
         {name: "Check Up" , link: "/checkup"},
         {name: "Treatment of Personal Diseases" , link: "/personal-treatment"},
-        {name: "Tooth Extraction" , link: "/tooth-extract"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Check Up" , link: "/checkup"}
+        {name: "Tooth Extraction" , link: "/tooth-extract"}
     ]
     return (
         <footer className="footer-area clear-both">
             <div className="container pt-5">
                 <div className="row py-5">
-                    <FooterCol key={1} menuTitle={"."} menuItems={noNamed}/>
+                    <FooterCol key={1} menuTitle={"Emergency"} menuItems={noNamed}/>
                     <FooterCol key={2} menuTitle="Services" menuItems={services}/>
                     <FooterCol key={3} menuTitle="Oral Health" menuItems={oralHealth}/>
                     <FooterCol key={4} menuTitle="Our Address" menuItems={ourAddress}> 
@@ -49,8 +43,8 @@ const Footer = () => {
                             <li className="list-inline-item"><a href="//instagram.com"><FontAwesomeIcon className="icon" icon={faInstagram} /></a></li>
                         </ul>
                         <div className="mt-5">
-                            <h6>Call now</h6>
-                            <button className="btn btn-brand">+2025550295</button>
+                            <h6>Contact no</h6>
+                            <button className="btn btn-brand">+8801787721193</button>
                         </div>
                     </FooterCol>
                 </div>

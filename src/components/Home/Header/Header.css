@@ -5,7 +5,7 @@
     background-size: cover;
 }
 .header-container::after {
-    height:700px;
+    height:800px;
     content:' ';
     position: absolute;
     top: 0;
