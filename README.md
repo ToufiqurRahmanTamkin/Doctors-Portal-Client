@@ -1,4 +1,4 @@
-# Doctors_Portal_Client_Site
+# Doctors_Portal_Client_Side
 I have developed this project using- React JS, React Routing + private routing, Firebase, React Bootstrap, Fontawesome Icons, React-Hooks, React MODAL.
 
 And for backend-server I have used expressJS and mongoDB for database.
